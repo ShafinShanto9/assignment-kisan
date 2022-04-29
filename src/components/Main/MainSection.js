@@ -8,10 +8,10 @@ const MainSection = () => {
     <Container className="my-5 p-2">
         <Row>
         <Col xs={12} md={8}>
-            <RightSide/>
+            <LeftSide />
         </Col>
-        <Col xs={12} md={4}>
-            <LeftSide/>
+        <Col xs={12} md={4}> 
+            <RightSide/>
         </Col>      
         </Row>
     </Container>
